@@ -1,0 +1,69 @@
+div#main{
+    width: 100%;
+    margin-left:300px;
+    margin-top:5 0px;
+    position: relative;
+
+}
+div#left:{
+    margin:60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#bleft:{
+
+    margin-top:60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#pic {
+    position:relative;
+}
+
+#pic img {
+    position:absolute;
+    height: 300px;
+    width:400px;
+    margin-top: 0;
+    margin-left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#pic img.top:hover {
+    opacity:0;
+}
+
+
+
+div#right{
+  margin-left: 400px;
+  margin-top:-20px;
+    display: inline-block;
+  vertical-align: middle;
+}
+
+#bf {
+    position:relative;
+  display:inline;
+}
+
+#bf img {
+    position:absolute;
+    height: 300px;
+    width:400px;
+    margin-top: 0;
+    margin-left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#bf img.top:hover {
+    opacity:0;
+}
